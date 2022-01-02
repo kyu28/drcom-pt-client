@@ -1,4 +1,4 @@
-#drcom 5.2.0(Pt) compatible client for Windows
+#drcom Pt compatible client
 import requests
 import time
 import sys
@@ -12,6 +12,7 @@ def Connect(url):
   except:
     print("Connection error")
 
+version='0.9'
 configFileName='dcacc.txt'
 configFile=os.getcwd()+'\\'+configFileName
 
@@ -22,6 +23,7 @@ if os.path.exists(configFile):
   ip=f.readline()
   portalUrl='http://'+ip[0:-1]+':801/eportal/portal/login?user_account=%2C0%2C'+user[0:-1]+'&user_password='+password[0:-1]
   f.close()
+  print('Drcom Pt compatible client '+version)
   while True:
     Connect(portalUrl)
     time.sleep(60)
