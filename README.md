@@ -18,7 +18,7 @@ Dr.com Pt版本客户端 可用于网页认证的drcom
 dcacc.txt创建后即可运行<br>
 exe版双击运行，因使用pyinstaller -w选项故运行时不会有界面显示<br>
 py版需要python3解释器及requests库，你可能需要`pip install requests`<br>
-该脚本定时自动更新以大幅减少断网概率
+该脚本定时自动更新以大幅降低断网概率
 
 # SZUer看这里
 2022新宿舍区IP 172.30.255.42
