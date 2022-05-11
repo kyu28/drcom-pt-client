@@ -4,7 +4,7 @@ Drcom Pt version client with refresh timer<br>
 Dr.com Pt版本客户端 可用于网页认证的drcom
 
 # 使用方法
-在程序相同目录下创建account.cfg并在内部填入三行数据<br>
+在程序相同目录下创建account.cfg并填入四行数据<br>
 第一行填入帐号<br>
 第二行填入密码<br>
 第三行填入认证服务器IP<br>
